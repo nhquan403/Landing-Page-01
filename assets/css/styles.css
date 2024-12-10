@@ -1,3 +1,10 @@
+:root {
+    --primary-color: #0f1b4c;
+
+    --background-header-color: #e6f0ff;
+    --nav-color: #4f5361;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -10,3 +17,129 @@ body {
     font-size: 1.6rem;
     font-family: "Poppins", sans-serif;
 }
+
+/* --------- Common ----------- */
+
+a {
+    text-decoration: none;
+}
+
+.content {
+    width: 1110px;
+    max-width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    display: inline-block;
+    min-width: 98px;
+    border-radius: 1.2rem;
+    background: var(--primary-color);
+
+    color: #fff;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 500;
+
+    padding: 18px 16px;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+/* ---------------------------- */
+
+/* --------- Header ----------- */
+
+header.header {
+    position: relative;
+    height: 100vh;
+    background-color: var(--background-header-color);
+}
+
+.navbar {
+    padding-top: 38px;
+
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul {
+    margin-left: 50px;
+    display: flex;
+}
+
+.navbar ul li a {
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding: 8px 14px;
+    color: var(--nav-color);
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+.navbar .actions {
+    margin-left: auto;
+}
+
+.navbar .action-link {
+    color: var(--primary-color);
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-right: 18px;
+}
+
+.navbar .action-btn {
+    padding: 13px 16px;
+}
+
+.hero {
+    margin-top: 130px;
+}
+
+.hero .info {
+    width: 51%;
+}
+
+.hero .sub-title {
+    color: #687690;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.01em;
+}
+
+.hero .title {
+    color: #000336;
+    font-size: 6.4rem;
+    font-weight: 700;
+    line-height: 7.6rem; /* 118.75% */
+    margin-top: 8px;
+}
+
+.hero .desc {
+    color: #5a6473;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 3.2rem; /* 177.778% */
+
+    margin-top: 30px;
+}
+
+.hero .hero-cta {
+    margin-top: 40px;
+    font-size: 1.3rem;
+    width: 170px;
+}
+
+.hero .hero-img {
+    position: absolute;
+    bottom: 0;
+    right: calc((100vw - 1110px) / 2 - 100px);
+}
+
+/* ---------------------------- */
