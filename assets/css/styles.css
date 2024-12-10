@@ -14,6 +14,7 @@ html {
 }
 
 body {
+    height: 2000px;
     font-size: 1.6rem;
     font-family: "Poppins", sans-serif;
 }
@@ -140,6 +141,40 @@ header.header {
     position: absolute;
     bottom: 0;
     right: calc((100vw - 1110px) / 2 - 100px);
+}
+
+/* ---------------------------- */
+
+/* --------- Clients ---------- */
+
+.clients {
+    margin-top: 122px;
+}
+
+.clients .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.clients .row-desc {
+    margin-top: 23px;
+}
+
+.clients .row .desc {
+    color: #7d8589;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.clients .images {
+    margin-top: 96px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clients .images:hover {
+    /* margin-top: 96px; */
 }
 
 /* ---------------------------- */
