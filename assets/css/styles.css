@@ -14,7 +14,6 @@ html {
 }
 
 body {
-    height: 6000px;
     font-size: 1.6rem;
     font-family: "Poppins", sans-serif;
 }
@@ -573,4 +572,66 @@ header.header {
     position: absolute;
     bottom: 0;
     right: 221px;
+}
+
+/* ---------- Footer -------------- */
+
+.footer {
+    margin-top: 55px;
+    padding: 50px 0px 58px;
+}
+
+.footer .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .row-top {
+    gap: 185px;
+}
+
+.footer .column .heading {
+    font-family: "Lato", sans-serif;
+    color: #1c1c1d;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.footer .column .list,
+.column .desc {
+    margin-top: 42px;
+}
+
+.footer .column .list .list-item {
+    margin-top: 18px;
+}
+
+.footer .column .list .list-item a,
+.footer .column .desc {
+    color: #7a7a7e;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.footer .column .list .list-item a {
+    white-space: nowrap;
+}
+
+.footer .column .desc {
+    line-height: 2.8rem;
+}
+
+.footer .socials {
+    margin-top: 40px;
+}
+
+.footer .copyright {
+    color: #c2c2c2;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.footer .row-copy {
+    margin-top: 80px;
+    align-items: center;
 }
