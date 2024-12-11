@@ -14,7 +14,7 @@ html {
 }
 
 body {
-    height: 4000px;
+    height: 6000px;
     font-size: 1.6rem;
     font-family: "Poppins", sans-serif;
 }
@@ -520,4 +520,57 @@ header.header {
     color: #7b8087;
     font-size: 18px;
     font-weight: 500;
+}
+
+/* ---------- Subcription -------------- */
+
+.subscription {
+    margin-top: 90px;
+}
+
+.subscription .body {
+    position: relative;
+    background-color: #063183;
+    height: 370px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.subscription .info {
+    padding: 0 80px;
+    width: 671px;
+    max-width: 100%;
+}
+
+.subscription .body .sub-title {
+    color: #fff;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5; /* 100% */
+}
+
+.subscription .body .desc {
+    margin-top: 15px;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+}
+
+.subscription .body .btn-act {
+    margin-top: 20px;
+    background-color: white;
+    width: 151px;
+
+    color: #002366;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.subscription .body .image {
+    position: absolute;
+    bottom: 0;
+    right: 221px;
 }
